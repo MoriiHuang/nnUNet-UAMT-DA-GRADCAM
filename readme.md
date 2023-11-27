@@ -16,11 +16,13 @@ pip install grad-cam
 ```
 
 ### Data Struct
+```
 nnUNet_raw
     - imagesTr(训练集)
     - imagesTs(测试集)
     - labelsTr(训练集label)
     - imagesUns(未标注数据，半监督)
+```
 ### Running Script
 ```shell
 ### 数据预处理
